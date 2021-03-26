@@ -1,0 +1,136 @@
+.headerAbout{
+    display:flex;
+    justify-content:space-between;
+}
+.menu{ 
+    display:flex;
+   
+}
+.menu a{ 
+   margin:5px;
+   font-size:20px;
+   border:2px solid;
+   padding-top:12px;
+   
+}
+.aboutHeader{
+    margin-left:150px
+}
+.description{
+   display:flex;
+    flex-wrap:wrap;
+    margin-left:10;
+    padding: 15px;
+    stroke-opacity:0;
+    padding:100px;
+    margin-bottom:10px
+}
+body{
+    background:  linear-gradient(rgb(109, 0, 211), rgb(0, 0, 0)) no-repeat fixed center;
+   
+  }
+
+.workHead{
+    display:flex;
+}
+
+.headerWork{
+    display:flex;
+    justify-content:space-between;
+}
+
+.workHeader{
+    margin-left:150px
+}
+
+.workHead a{
+    margin:5px;
+    font-size:20px;
+    border:2px solid;
+    padding-top:12px;
+    justify-content:flex-end;
+
+}
+
+  .A{ 
+    display:flex;
+    justify-content:flex-end;
+}
+.A a{ 
+   margin:5px;
+   font-size:20px;
+   border:2px solid;
+   padding-top:12px;
+}
+
+.hederLink{
+    display:flex;
+}
+
+.hederLink a{
+    margin:5px;
+   font-size:20px;
+   border:2px solid;
+   padding-top:12px;
+   margin-right:10px;
+}
+
+.indexHead{
+    display:flex;
+}
+
+.headerIndex{
+    display:flex;
+    justify-content:space-between;
+}
+
+a:link {
+    color: green;
+    background-color: black;
+    text-decoration: none;
+  }
+  
+  .workHead a:hover {
+    color: black;
+    background-color: rgb(21, 255, 0);
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+.games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.g{
+    position:relative;
+}
+.g h1{ 
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -170%);
+   opacity:0
+}
+.g h1{ 
+    font-size:30px;
+    transition:font-size;
+}
+.g:hover h1{
+    opacity:1;
+    transition-duration: 5s;
+}
+.g:hover img{
+    opacity:0.4;
+  
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+}
